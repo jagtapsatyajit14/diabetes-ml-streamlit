@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 import seaborn as sns
 
 # LOAD DATA
-df = pd.read_csv(r'C:\Users\Lenovo\Desktop\Streamlit\diabetes.csv')
+df = pd.read_csv('diabetes.csv')
 
 # HEADINGS
 st.title('Diabetes Checkup')
